@@ -1,4 +1,7 @@
 const mix = require('laravel-mix');
+const HtmlWebpackPlugin = require('html-webpack-plugin');
+const HtmlWebpackExcludeAssetsPlugin = require(
+  'html-webpack-exclude-assets-plugin');
 
 /*
  |--------------------------------------------------------------------------
@@ -12,4 +15,4 @@ const mix = require('laravel-mix');
  */
 
 mix.js('resources/js/app.js', 'public/js')
-   .sass('resources/sass/app.scss', 'public/css');
+  .sass('resources/sass/app.scss', 'public/css');
