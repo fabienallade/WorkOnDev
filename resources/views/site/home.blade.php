@@ -95,8 +95,8 @@
           <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sit fugit deserunt quos provident aliquam inventore.</p>
           <br>
           <br>
-          <a href="solutions.html" class="btn btn-large white purple-text">Learn More</a>
-          <a href="signup.html" class="btn btn-large purple white-text">Sign Up</a>
+          <a href="solutions.html" class=" white purple-text waves-effect waves-light btn-large">Learn More</a>
+          <a href="signup.html" class="purple white-text waves-effect waves-light btn-large">Sign Up</a>
         </div>
       </div>
     </div>
@@ -165,11 +165,12 @@
   <section class="section section-language grey lighten-4">
     <div class="container">
       <div class="row">
-        <h4 class="center">Work With
-          <span class="deep-purple-text text-darken-1"> Any Language</span>
-        </h4>
-        <br>
-        <br>
+          <div class="text-center col">
+            <h4 class=" pb-5">Work With
+              <span class="deep-purple-text text-darken-1"> Any Language</span>
+            </h4>
+          </div>
+
         <div class="row">
           <div class="col s2">
             <img src="img/python-logo.png" class="responsive-img" alt="">
@@ -204,7 +205,7 @@
             <p>Every Thursday at 5pm EST</p>
           </div>
           <div class="col s12 m4">
-            <a href="#" class="btn purple btn-large">
+            <a href="#" class="purple text-white waves-effect waves-light btn-large">
               <i class="fa fa-podcast"></i> Listen
             </a>
           </div>
@@ -318,7 +319,6 @@
         <i class="fa fa-lock"></i> Login</a>
     </div>
   </div>
-
 
 
 </body>

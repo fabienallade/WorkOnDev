@@ -12,6 +12,9 @@ try {
 
   require('bootstrap');
   require('materialize-css');
+  require('swiper');
+  require('filterizr');
+  var AOS = require('aos');
 } catch (e) {}
 
 /**
@@ -41,7 +44,7 @@ if (token) {
 
 var Turbolinks = require("turbolinks")
 Turbolinks.start()
-
+AOS.init();
 /**
  * Echo exposes an expressive API for subscribing to channels and listening
  * for events that are broadcast by Laravel. Echo and event broadcasting

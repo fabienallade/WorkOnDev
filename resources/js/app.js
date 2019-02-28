@@ -5,11 +5,10 @@
  */
 
 require('./bootstrap');
-require('./site');
 
 
 window.Vue = require('vue');
-
+require('./site');
 /**
  * The following block of code may be used to automatically register your
  * Vue components. It will recursively scan this directory for the Vue
@@ -32,4 +31,8 @@ Vue.component('example-component', require('./components/ExampleComponent.vue')
 
 const app = new Vue({
   el: '#app'
+});
+
+$('.carousel.carousel-slider').carousel({
+  fullWidth: true
 });
