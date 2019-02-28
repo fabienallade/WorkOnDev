@@ -3,5 +3,6 @@ $(document).ready(function() {
     fullWidth: true
   });
   $('.button-collapse').sidenav();
+  $('.sidenav').sidenav();
   $('.modal').modal();
 });

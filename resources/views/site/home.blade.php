@@ -28,8 +28,7 @@
       <div class="container">
         <div class="nav-wrapper">
           <a href="#" class="brand-logo">Quazzu</a>
-          <a href="#" data-activates="mobile-nav" class="button-collapse">
-            <i class="fa fa-bars"></i>
+          <a href="#" data-target="mobile-nav" class="sidenav-trigger"><i class="material-icons">menu</i></a>
           </a>
           <ul class="right hide-on-med-and-down">
             <li>
@@ -90,7 +89,7 @@
     <!-- Showcase -->
     <div class="showcase container">
       <div class="row">
-        <div class="col s12 m10 offset-m1 center">
+        <div class="col s12 m10 center">
           <h5>Welcome To Quazzu</h5>
           <h1>Build For The Future</h1>
           <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sit fugit deserunt quos provident aliquam inventore.</p>
