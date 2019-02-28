@@ -9,9 +9,9 @@ window._ = require('lodash');
 try {
   window.Popper = require('popper.js').default;
   window.$ = window.jQuery = require('jquery');
-  window.Materialize = require('materialize-css');
 
   require('bootstrap');
+  require('materialize-css');
 } catch (e) {}
 
 /**
@@ -38,6 +38,9 @@ if (token) {
   console.error(
     'CSRF token not found: https://laravel.com/docs/csrf#csrf-x-csrf-token');
 }
+
+var Turbolinks = require("turbolinks")
+Turbolinks.start()
 
 /**
  * Echo exposes an expressive API for subscribing to channels and listening

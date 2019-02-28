@@ -1,7 +1,5 @@
 const mix = require('laravel-mix');
-const HtmlWebpackPlugin = require('html-webpack-plugin');
-const HtmlWebpackExcludeAssetsPlugin = require(
-  'html-webpack-exclude-assets-plugin');
+
 
 /*
  |--------------------------------------------------------------------------
