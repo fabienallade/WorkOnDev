@@ -26,8 +26,13 @@
     "dependencies": {
         "aos": "^2.3.4",
         "filterizr": "^1.3.5",
+        "i": "^0.3.6",
+        "masonry-layout": "^4.2.2",
         "materialize-css": "^1.0.0-rc.2",
+        "npm": "^6.8.0",
+        "retinajs": "^2.1.3",
         "swiper": "^4.5.0",
-        "turbolinks": "^5.2.0"
+        "turbolinks": "^5.2.0",
+        "validator": "^10.11.0"
     }
 }

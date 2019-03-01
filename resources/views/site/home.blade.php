@@ -35,10 +35,13 @@
               <a class="active-link" href="index.html">Home</a>
             </li>
             <li>
-              <a href="solutions.html">Solutions</a>
+              <a href="{{ route('solutions') }}">Solutions</a>
             </li>
             <li>
-              <a href="signup.html">Sign Up</a>
+              <a href="{{ route('signup') }}">Sign Up</a>
+            </li>
+            <li>
+              <a href="{{ route('mon_cv') }}">Mon Cv</a>
             </li>
             <li>
               <a href="#login-modal" class="btn purple modal-trigger">Login</a>
@@ -87,7 +90,7 @@
       </div>
     </nav>
     <!-- Showcase -->
-    <div class="showcase container">
+    <div class="showcase container" data-aos="fade-down" data-aos-duration="1000">
       <div class="row">
         <div class="col s12 m10 center">
           <h5>Welcome To Quazzu</h5>
@@ -105,7 +108,7 @@
   <!-- Section: Icon Boxes -->
   <section class="section section-icons center">
     <div class="container">
-      <div class="row">
+      <div class="row" data-aos="fade-right">
         <div class="col s12 m4">
           <div class="card-panel">
             <i class="fa fa-user fa-3x deep-purple-text text-darken-2"></i>
@@ -134,7 +137,7 @@
   <!-- Section: About -->
   <section class="section section-about grey lighten-4">
     <div class="container">
-      <div class="row">
+      <div class="row" data-aos="fade-right">
         <div class="col s12 m6">
           <h3>
             <span class="deep-purple-text text-darken-1">About</span> Us</h3>
@@ -164,14 +167,14 @@
   <!-- Section: Languages -->
   <section class="section section-language grey lighten-4">
     <div class="container">
-      <div class="row">
+      <div class="row" data-aos="zoom-in">
           <div class="text-center col">
             <h4 class=" pb-5">Work With
               <span class="deep-purple-text text-darken-1"> Any Language</span>
             </h4>
           </div>
 
-        <div class="row">
+        <div class="row" data-aos="zoom-in-down">
           <div class="col s2">
             <img src="img/python-logo.png" class="responsive-img" alt="">
           </div>
@@ -199,7 +202,7 @@
   <section class="section section-podcast white-text">
     <div class="primary-overlay valign-wrapper">
       <div class="container">
-        <div class="row">
+        <div class="row" data-aos="zoom-out">
           <div class="col s12 m8">
             <h4>Listen to the Quazzu Podcast</h4>
             <p>Every Thursday at 5pm EST</p>
@@ -217,7 +220,7 @@
   <!-- Section: Testimonial -->
   <section class="section section-testimonial grey lighten-4">
     <div class="container">
-      <div class="row">
+      <div class="row" data-aos="zoom-out">
         <div class="col s12">
           <div class="carousel carousel-slider center">
             <div class="carousel-item" href="#one!">
@@ -265,7 +268,7 @@
   <!-- Footer -->
   <footer class="page-footer deep-purple lighten-1">
     <div class="container">
-      <div class="row">
+      <div class="row" data-aos="zoom-out-left">
         <div class="col l6 s12">
           <h5 class="white-text">About Us</h5>
           <p class="grey-text text-lighten-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti ducimus, hic id quod enim voluptate </p>
@@ -287,7 +290,8 @@
         </div>
       </div>
     </div>
-    <div class="footer-copyright deep-purple darken-1">
+    <div class="footer-copyright deep-purple darken-1" data-aos="fade-up"
+     data-aos-duration="3000">
       <div class="container">
         Quazzu &copy; 2018
         <a class="grey-text text-lighten-4 right" href="#!">Terms & Conditions</a>

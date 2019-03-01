@@ -14,6 +14,9 @@ try {
   require('materialize-css');
   require('swiper');
   require('filterizr');
+  require('retinajs');
+  require('validator');
+  require('masonry-layout');
   var AOS = require('aos');
 } catch (e) {}
 
