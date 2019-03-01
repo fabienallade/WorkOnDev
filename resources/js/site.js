@@ -5,5 +5,4 @@ $(document).ready(function() {
   $('.button-collapse').sidenav();
   $('.sidenav').sidenav();
   $('.modal').modal();
-  $('select').material_select();
 });

@@ -14,7 +14,7 @@
 Route::get('/', function () {
     // return view('welcome');
     return view('site.home');
-});
+})->name('/');
 Route::get('mon_cv', function () {
     // return view('welcome');
     return view('site.cv');
