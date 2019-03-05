@@ -48493,6 +48493,17 @@ $jscomp.polyfill = function (e, r, p, m) {
 
 /***/ }),
 
+/***/ "./node_modules/materialize-css/sass/materialize.scss":
+/*!************************************************************!*\
+  !*** ./node_modules/materialize-css/sass/materialize.scss ***!
+  \************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+// removed by extract-text-webpack-plugin
+
+/***/ }),
+
 /***/ "./node_modules/outlayer/item.js":
 /*!***************************************!*\
   !*** ./node_modules/outlayer/item.js ***!
@@ -76719,6 +76730,29 @@ $(document).ready(function () {
   $('.button-collapse').sidenav();
   $('.sidenav').sidenav();
   $('.modal').modal();
+  $('.fixed-action-btn').floatingActionButton();
+  $('.fixed-action-btn').click(function () {
+    $("html, body").animate({
+      scrollTop: 0
+    }, 1000);
+  });
+
+  function taille() {
+    var taille_ecran = $("body")[0].scrollTop;
+
+    if (taille_ecran <= 500) {
+      $('.fixed-action-btn').hide();
+    } else {
+      $('.fixed-action-btn').show();
+    }
+  }
+
+  $(document).scroll(function (event) {
+    // console.log($(document).height() - $(window).height());
+    // console.log(document.body.clientHeight);
+    taille();
+  });
+  taille();
 });
 
 /***/ }),
@@ -76734,15 +76768,28 @@ $(document).ready(function () {
 
 /***/ }),
 
+/***/ "./resources/sass/site.scss":
+/*!**********************************!*\
+  !*** ./resources/sass/site.scss ***!
+  \**********************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+// removed by extract-text-webpack-plugin
+
+/***/ }),
+
 /***/ 0:
-/*!*************************************************************!*\
-  !*** multi ./resources/js/app.js ./resources/sass/app.scss ***!
-  \*************************************************************/
+/*!*********************************************************************************************************************************************!*\
+  !*** multi ./resources/js/app.js ./resources/sass/app.scss ./node_modules/materialize-css/sass/materialize.scss ./resources/sass/site.scss ***!
+  \*********************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 __webpack_require__(/*! C:\laragon\www\WorkOnDev\resources\js\app.js */"./resources/js/app.js");
-module.exports = __webpack_require__(/*! C:\laragon\www\WorkOnDev\resources\sass\app.scss */"./resources/sass/app.scss");
+__webpack_require__(/*! C:\laragon\www\WorkOnDev\resources\sass\app.scss */"./resources/sass/app.scss");
+__webpack_require__(/*! C:\laragon\www\WorkOnDev\node_modules\materialize-css\sass\materialize.scss */"./node_modules/materialize-css/sass/materialize.scss");
+module.exports = __webpack_require__(/*! C:\laragon\www\WorkOnDev\resources\sass\site.scss */"./resources/sass/site.scss");
 
 
 /***/ })

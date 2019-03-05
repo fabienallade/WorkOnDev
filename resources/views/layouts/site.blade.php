@@ -13,8 +13,8 @@
   <script src="{{ asset('js/app.js') }}" defer></script>
 
   <!-- Styles -->
-  <link href="{{ asset('materialize/css/materialize.css') }}" rel="stylesheet">
-  <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+  <link href="{{ asset('materialize.css') }}" rel="stylesheet">
+  <link href="{{ asset('site.css') }}" rel="stylesheet">
 
   <!--Let browser know website is optimized for mobile-->
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -93,4 +93,24 @@
         </div>
       </div>
     </nav>
+    <!-- Showcase -->
+    <div class="showcase container" data-aos="fade-down" data-aos-duration="1000">
+      <div class="row">
+        <div class="col s12 m10 offset-m1 center">
+          <h5>Welcome To Quazzu</h5>
+          <h1>Build For The Future</h1>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sit fugit deserunt quos provident aliquam inventore.</p>
+          <br>
+          <br>
+            <a href="solutions.html" class="purple white-text waves-effect waves-light btn btn-large btn-padding ">Learn More</a>
+            <a href="signup.html" class=" white purple-text waves-effect waves-light btn btn-large btn-padding ">Sign Up</a>
+        </div>
+      </div>
+    </div>
+  </header>
+  <div class="fixed-action-btn">
+  <a class="btn-floating btn-large red">
+    <i class="large material-icons">keyboard_arrow_up</i>
+  </a>
+</div>
     @yield('content')

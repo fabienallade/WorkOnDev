@@ -1,17 +1,6 @@
 @extends('layouts.site')
 @section('content')
 
-      <!-- Showcase -->
-      <div class="showcase container">
-        <div class="row">
-          <div class="col s12 m10 center">
-            <h5>Welcome To Quazzu</h5>
-            <h1>Create An Account</h1>
-          </div>
-        </div>
-      </div>
-    </header>
-
     <!-- Section: Signup -->
     <section class="section section-signup">
       <div class="container">

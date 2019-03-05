@@ -1,41 +1,27 @@
 @extends('layouts.site')
 @section('content')
 
-      <!-- Showcase -->
-      <div class="showcase container" data-aos="fade-down" data-aos-duration="1000">
-        <div class="row">
-          <div class="col s12 m10 center">
-            <h5>Welcome To Quazzu</h5>
-            <h1>Build For The Future</h1>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sit fugit deserunt quos provident aliquam inventore.</p>
-            <br>
-            <br>
-            <a href="solutions.html" class=" white purple-text waves-effect waves-light btn-large">Learn More</a>
-            <a href="signup.html" class="purple white-text waves-effect waves-light btn-large">Sign Up</a>
-          </div>
-        </div>
-      </div>
-    </header>
+
 
     <!-- Section: Icon Boxes -->
     <section class="section section-icons center">
       <div class="container">
         <div class="row" data-aos="fade-right">
-          <div class="col s12 m4">
+          <div class="col s12 m4 l6 xl6">
             <div class="card-panel">
               <i class="fa fa-user fa-3x deep-purple-text text-darken-2"></i>
-              <h5 class="grey-text text-darken-4">Free Account</h5>
+              <h5 class="grey-text text-darken-4">Free Get Account</h5>
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad, suscipit!</p>
             </div>
           </div>
-          <div class="col s12 m4">
+          <div class="col s12 m4 l6 xl6">
             <div class="card-panel">
               <i class="fa fa-database fa-3x deep-purple-text text-darken-2"></i>
               <h5 class="grey-text text-darken-4">NoSQL Databases</h5>
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad, suscipit!</p>
             </div>
           </div>
-          <div class="col s12 m4">
+          <div class="col s12 m4 l12 xl4">
             <div class="card-panel">
               <i class="fa fa-bolt fa-3x deep-purple-text text-darken-2"></i>
               <h5 class="grey-text text-darken-4">Fast Conections</h5>
@@ -57,7 +43,7 @@
               dolorem recusandae.</p>
           </div>
           <div class="col s12 m6">
-            <img src="img/tech.jpg" alt="" class="circle responsive-img">
+            <img src="img/tech.jpg" alt="" class="circle responsive-img circle_rad">
           </div>
         </div>
       </div>
@@ -80,29 +66,29 @@
     <section class="section section-language grey lighten-4">
       <div class="container">
         <div class="row" data-aos="zoom-in">
-            <div class="text-center col">
-              <h4 class=" pb-5">Work With
+            <div class="">
+              <h4 class="center pb-5">Work With
                 <span class="deep-purple-text text-darken-1"> Any Language</span>
               </h4>
             </div>
 
           <div class="row" data-aos="zoom-in-down">
-            <div class="col s2">
+            <div class="col s4 m2">
               <img src="img/python-logo.png" class="responsive-img" alt="">
             </div>
-            <div class="col s2">
+            <div class="col s4 m2">
               <img src="img/ruby-logo.png" class="responsive-img" alt="">
             </div>
-            <div class="col s2">
+            <div class="col s4 m2">
               <img src="img/php-logo.png" class="responsive-img" alt="">
             </div>
-            <div class="col s2">
+            <div class="col s4 m2">
               <img src="img/node-logo.png" class="responsive-img" alt="">
             </div>
-            <div class="col s2">
+            <div class="col s4 m2">
               <img src="img/c-sharp-logo.png" class="responsive-img" alt="">
             </div>
-            <div class="col s2">
+            <div class="col s4 m2">
               <img src="img/java-logo.png" class="responsive-img" alt="">
             </div>
           </div>
