@@ -48,7 +48,7 @@
                                       IMAGE
                             ==========================-->
                             <div class="feature-img">
-                                <a href="index-2.html"><img src="{{ asset('cv/assets/images/profile-img.jpg')}}" class="responsive-img" alt=""></a>
+                                <a href="index-2.html"><img src="{{ asset('img/IMG_5959.JPG')}}" class="responsive-img img-size" alt=""></a>
                             </div>
                             <!-- =========================================
                                        NAVIGATION
@@ -71,7 +71,7 @@
                                        NAME AND TAGLINE
                             ==========================================-->
                             <div class="title col s12 m12 l9 right  wow fadeIn" data-wow-delay="0.1s">
-                                <h2>Al Rayhan</h2> <!-- title name -->
+                                <h3>ALLADE Fabien</h3> <!-- title name -->
                                 <span>UI & UX Expert</span>  <!-- tagline -->
                             </div>
                         </div>
