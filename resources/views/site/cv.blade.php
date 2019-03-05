@@ -158,37 +158,37 @@
 
                                     <span>Adobe Photoshop</span>
                                     <div class="progress">
-                                        <div class="determinate"> 70% </div>
+                                        <div class="determinate" style="width: 70%">  </div>
                                     </div>
 
                                     <span>HTML</span>
                                     <div class="progress">
-                                        <div class="determinate"> 95%</div>
+                                        <div class="determinate" style="width: 95%"> </div>
                                     </div>
 
                                     <span>CSS</span>
                                     <div class="progress">
-                                        <div class="determinate">90%</div>
+                                        <div class="determinate" style="width: 90%"></div>
                                     </div>
 
                                     <span>Javascript</span>
                                     <div class="progress">
-                                        <div class="determinate">85%</div>
+                                        <div class="determinate" style="width: 85%"></div>
                                     </div>
 
                                     <span>PHP</span>
                                     <div class="progress">
-                                        <div class="determinate">70%</div>
+                                        <div class="determinate" style="width: 70%"></div>
                                     </div>
 
                                     <span>JAVA</span>
                                     <div class="progress">
-                                        <div class="determinate">55%</div>
+                                        <div class="determinate" style="width: 55%"></div>
                                     </div>
 
                                     <span>SQL</span>
                                     <div class="progress">
-                                        <div class="determinate">40%</div>
+                                        <div class="determinate" style="width: 40%"></div>
                                     </div>
                                 </div>
                             </div>
@@ -298,15 +298,6 @@
                 </section><!-- end section -->
             </div> <!-- end row -->
         </div>  <!-- end container -->
-
-        <script src="assets/js/masonry.pkgd.js"></script>
-
-        <script src="assets/js/validator.min.js"></script>
-
-        <!-- Customized js -->
-        <script src="assets/js/init.js"></script>
-
-
     </body>
 
 </html>

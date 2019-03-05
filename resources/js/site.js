@@ -2,6 +2,7 @@ $(document).ready(function() {
   $('.carousel.carousel-slider').carousel({
     fullWidth: true
   });
+  $('.tooltipped').tooltip();
   $('.button-collapse').sidenav();
   $('.sidenav').sidenav();
   $('.modal').modal();
