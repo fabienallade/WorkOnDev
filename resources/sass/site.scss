@@ -1,5 +1,6 @@
 @import "https://fonts.googleapis.com/icon?family=Material+Icons";
-
+//Font Awesome
+@import "~font-awesome/scss/font-awesome.scss";
 .turbolinks-progress-bar {
   height: 5px;
   background-color: green;
@@ -107,4 +108,7 @@
   .section-podcast {
     min-height: 240px;
   }
+}
+.cv-body{
+
 }

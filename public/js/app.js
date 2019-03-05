@@ -76526,6 +76526,17 @@ module.exports = function(module) {
 
 /***/ }),
 
+/***/ "./node_modules/wow/lib/main.js":
+/*!**************************************!*\
+  !*** ./node_modules/wow/lib/main.js ***!
+  \**************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+throw new Error("Module parse failed: Unexpected character '#' (1:0)\nYou may need an appropriate loader to handle this file type.\n> #!/usr/bin/env node\n| var com = require(\"./command.js\");\n| ");
+
+/***/ }),
+
 /***/ "./resources/js/app.js":
 /*!*****************************!*\
   !*** ./resources/js/app.js ***!
@@ -76602,14 +76613,17 @@ try {
 
   __webpack_require__(/*! masonry-layout */ "./node_modules/masonry-layout/masonry.js");
 
+  __webpack_require__(/*! wow */ "./node_modules/wow/lib/main.js");
+
   var AOS = __webpack_require__(/*! aos */ "./node_modules/aos/dist/aos.js");
 } catch (e) {}
+
+new WOW().init();
 /**
  * We'll load the axios HTTP library which allows us to easily issue requests
  * to our Laravel back-end. This library automatically handles sending the
  * CSRF token as a header based on the value of the "XSRF" token cookie.
  */
-
 
 window.axios = __webpack_require__(/*! axios */ "./node_modules/axios/index.js");
 window.axios.defaults.headers.common['X-Requested-With'] = 'XMLHttpRequest';
